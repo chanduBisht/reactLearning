@@ -12,6 +12,7 @@ import {
   Routes
 } from "react-router-dom";
 import News from './components/News';
+import Inotebook from './components/Inotebook';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       <Alert alert={alert}/>
       <Routes>
         <Route path="/news" element={<News pageSize={9}/>} />
+        <Route path="/notebook" element={<Inotebook/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/" element={<TextForm/>} />

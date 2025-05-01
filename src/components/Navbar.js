@@ -19,6 +19,9 @@ export default function Navbar(props) {
               <Link className="nav-link" to="/news">News</Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/notebook">Notebook</Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="nav-item">
